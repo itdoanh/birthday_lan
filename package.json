@@ -1,0 +1,51 @@
+{
+  "name": "birthday_lan",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Trang countdown sinh nhật tối thượng với 2D image-based countdown (Picsum + 30+ style tự sinh) và 3D scene đỉnh GTA-V-level khi tới giờ",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "tsc -b --noEmit",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,md,json}\"",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/postprocessing": "^2.16.3",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^11.11.0",
+    "howler": "^2.2.4",
+    "postprocessing": "^6.36.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0",
+    "tsparticles-confetti": "^2.12.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.12",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.169.0",
+    "@typescript-eslint/eslint-plugin": "^8.8.1",
+    "@typescript-eslint/parser": "^8.8.1",
+    "@vitejs/plugin-react": "^4.3.2",
+    "eslint": "^9.12.0",
+    "eslint-plugin-react": "^7.37.1",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8",
+    "vitest": "^2.1.2"
+  }
+}
